@@ -8,3 +8,6 @@ This repository will contain code of the exercises relate to the **Learn HTML - 
 
 ![Text Basics](/img/TextBasics.png)
 
+## Chapter 4 - List Tyoes
+
+![List Types](/img/CH4_ListTypes.png)
