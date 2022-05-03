@@ -10,3 +10,7 @@ This repository will contain code of the exercises relate to the [**Learn HTML -
 ## Chapter 4 - List Types
 
 ![List Types](/img/CH4_ListTypes.png)
+
+## Chapter 5 - Links
+
+![Links](/img/CH5Links.png)
