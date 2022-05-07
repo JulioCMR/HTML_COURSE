@@ -14,3 +14,7 @@ This repository will contain code of the exercises relate to the [**Learn HTML -
 ## Chapter 5 - Links
 
 ![Links](/img/CH5Links.png)
+
+## Chapter 6 - Images
+
+![Images](/img/CH6Images.png)
