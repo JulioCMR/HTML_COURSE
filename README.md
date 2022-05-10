@@ -18,3 +18,7 @@ This repository will contain code of the exercises relate to the [**Learn HTML -
 ## Chapter 6 - Images
 
 ![Images](/img/CH6Images.png)
+
+## Chapter 7 - Semantics
+
+![Semantics](/img/CH7Semantics.png)

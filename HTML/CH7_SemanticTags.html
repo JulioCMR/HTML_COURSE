@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julio Morales">
+    <meta name="description" content="This files contains all the things I'm learning about HTML">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <!-- Favicon image -->
+    <link rel="icon" href="/img/html5icon.png" type="img/x-icon">
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="/main.css">
+
+</head>
+
+<body>
+    <header>
+        <h1> Hello World! </h1>
+        
+        <nav aria-label="primary-navigation">
+            <h2 id="primary-navigation"> Menu </h2>
+            <ul> <!--Inpage link paths-->
+                <li> <a href="#html-me">HTML journey</a></li>
+                <li><a href="#moving-out">Moving out plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="html-me">
+            <!-- Hey! I'm practicing HTML, but you can't see this message-->
+            <h2> I'm practicing HTML </h2>
+            <p> This is my first web page, well, sorta</p>
+            <!-- Normal img tag code-->
+            <section>
+                <h3>HTML 5</h3>
+                <img src="/img/html5-g5d432f8fc_640.png" alt="HTML5 icon" title="Yes, this is a HTML5 icon" width="300" height="300">
+                <figure>
+                    <figcaption> HTML Code example </figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </p>
+                </figure>
+            </section>
+
+            <section>
+                <h3> My daily schedule</h3>
+                <p> Let me tell you what I do in my daily life: </p>
+
+                <!-- Ordered Lists-->
+                <ol>
+                    <li>I program. </li>
+                    <li>I sleep. </li>
+                    <li>I go out with Nash.</li>
+                    <li>I play with my pets.</li>
+                    <!-- Absolute link path-->
+                    <li> I'm learning from the <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE"> Learn HTML -Full Tutorial for Beginners(2022)</a> course</li>
+                </ol>
+
+                <aside>
+                    <h4>Trivia</h4>
+                    <details>
+                        <summary> Guess <mark>the numbers of hours</mark> I code per day </summary>
+                        <p> I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT4H">4</time> or <time datetime="PT5H">5 hours</time> per day.</p>
+                    </details>
+                </aside>
+            </section>
+        </article>
+
+        <hr>
+
+
+        <article id="moving-out">
+            <h2> I'm also planning to move out</h2>
+            <p> I've been working hard and I need a <em> change in my life. </em> </p>
+            <p> I live in <abbr title="México">MX</abbr> so I want a good place to develop my career.</p>
+
+            <section>
+                <h3> Places I'd like to live</h3>
+                
+                <!-- Unordered Lists-->
+                <ul>
+                    <li>
+                    <p>I've heard good things about <abbr title="Guadalajara">GDL</abbr>. </p>
+                    <!-- Lazy loading image with Figure/caption element-->
+                    <figure>
+                        <img src="/img/guadalajara-geb01ba697_640.jpg" alt="Guadalajara City" title="Guadalajara picture" width="640" height="291" loading="lazy">
+                        <figcaption> Guadalajara Cathedral.</figcaption>
+                    </figure>
+                    </li>
+
+                    <li>
+                    <p>I've heard good things about here:</p>
+                    <address>
+                        Mexico City, <br>
+                        Coyoacán, <br>
+                        Colonia Santa Úrsula
+                    </address>
+                    <!-- Figure and caption with a eager image loading-->
+                    <figure>
+                        <img src="/img/mural-g9e437481e_640.jpg" alt="UNAM library-mural" title="UNAM library mural" width="640" height="427" loading="eager">
+                        <figcaption> UNAM, Ciudad Universitaria, CDMX.</figcaption>
+                    </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+            <h3> Places I want to avoid </h3>
+                <p> I really don't have any undesire place, <strong> I want to know all of México. </strong> And I have some reasons for that:</p>
+
+                <!-- Description Lists-->
+                <dl>
+                    <dt> <strong>Roots</strong></dt>
+                    <dd> For me, it's important to know where we come from.</dd>
+
+                    <dt> <strong> Know the place where you live</strong></dt>
+                    <dd> How would you go to another country without knowing your home?</dd>
+                    
+                    <dt> <strong> México is beautiful</strong></dt>
+                    <dd> Have you seen the beautiful places that México has?</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <!-- Relative link Path -->
+       <p>
+            &lt;&lt;&lt; &copy; <a href="about_me.html">Julio Morales </a> &gt;&gt;&gt;
+        </p>
+
+        <!-- Inpage link path-->
+        <p>
+            <a href="#"> Back to the top</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
