@@ -22,3 +22,7 @@ This repository will contain code of the exercises relate to the [**Learn HTML -
 ## Chapter 7 - Semantics
 
 ![Semantics](/img/CH7Semantics.png)
+
+## Chapter 8 - Tables
+
+![Tables](/img/CH8Tables.png)
