@@ -26,3 +26,7 @@ This repository will contain code of the exercises relate to the [**Learn HTML -
 ## Chapter 8 - Tables
 
 ![Tables](/img/CH8Tables.png)
+
+## Chapter 9 - Forms & Inputs
+
+![Forms & Inputs](/img/CH9FormsInputs.png)
