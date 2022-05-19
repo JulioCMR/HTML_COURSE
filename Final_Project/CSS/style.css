@@ -1,0 +1,16 @@
+
+
+html {
+    font-size: 22 px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: auto;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    padding: 1rem;
+}
+
+

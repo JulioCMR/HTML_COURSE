@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julio Morales">
+    <meta name="description" content="This file is the main webpage of the final HTML project">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Taco Shop</title>
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Favicon Taco -->
+    <link rel="icon" href="img/favicontaco.ico" type="img/x-icon">
+
+</head>
+<body>
+
+    <header>
+
+        <h1>Welcome to The Little Taco Shop</h1>
+
+        <nav aria-label="primary-navigation">
+            <h2 id="primary-navigation">Website Menu</h2>
+
+            <ul>
+                <li><a href="#about">About LTS</a></li>
+                <li><a href="#food-menu">Our Food Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="img/tacos_and_drink_400x267.png" alt="Tacos & Drinks" title="Taquitos" width="400" height="267" loading="eager">
+            <figcaption>Tacos and a Drink.</figcaption>
+        </figure>
+
+    </header>
+    
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+
+            <p>
+                <abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a <strong>a love of tacos</strong> &#x1F32E;&#x1F32E;&#x1F32E;. We hope our shop adds a unique annd interesting place to our little town.
+            </p>
+   
+            <aside>
+                <h4>Taco Trivia</h4>
+                <details>
+                    <summary>When did tacos first appear in the United States?</summary>
+                    <p>Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, says the earliest mention of tacos in the United States are in newspaper from 1905. <br>(Source:<a href="https://www.smithsonianmag.com/">Smithsonian Magazine</a>)</p>
+                </details>
+            </aside>
+        </section>
+
+        <hr>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            
+            <table>
+                <caption>Our tacos</caption>
+                <thead>
+                    <th scope="col">Tacos</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">Crunchy</th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </section>
+    </main>
+</body>
+</html>
