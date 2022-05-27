@@ -30,3 +30,13 @@ This repository will contain code of the exercises relate to the [**Learn HTML -
 ## Chapter 9 - Forms & Inputs
 
 ![Forms & Inputs](/img/CH9FormsInputs.png)
+
+## Final Project: The Little Taco Shop
+
+![index.html](img/mainTaco.png)
+
+![contact.html](img/contactTaco.png)
+
+![hours.html](img/hoursTaco.png)
+
+
